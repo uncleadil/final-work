@@ -1,14 +1,18 @@
 export const data = [
   {
     id: 1,
-    img: "https://mebelplus.kz/image/catalog/divany/leo.jpg",
+    img: "https://pinskdrev.kz/web/files/imagick_cache/w1920h480t3/web/files/photogallery/SliderRegion/125/1920x480_magkie-krovati.png",
   },
   {
     id: 2,
-    img: "https://sola-m.ru/wp-content/uploads/2023/10/divan-krovat-marrit-2.jpg",
+    img: "https://pinskdrev.kz/web/files/imagick_cache/w1920h480t3/web/files/photogallery/SliderRegion/110/1920x480_Kaspi-4.jpg",
   },
   {
     id: 3,
-    img: "https://cdn.domdivanov.kz/files/imgs/ig1111921/divan-uglovoi-suave-590x430.png",
+    img: "https://pinskdrev.kz/web/files/imagick_cache/w1920h480t3/web/files/photogallery/SliderRegion/129/1920x480_omega-1.jpg",
+  },
+  {
+    id: 4,
+    img: "https://pinskdrev.kz/web/files/imagick_cache/w1920h480t3/web/files/photogallery/SliderRegion/102/1920x480_miagkoi-posadki-4.jpg",
   },
 ];

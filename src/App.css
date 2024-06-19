@@ -1,52 +1,63 @@
-* {
-  padding: 0;
-  box-sizing: border-box;
-  margin: 0;
+.slider-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-image {
+  width: 100%;
+  height: 500px;
+  flex-shrink: 0;
+}
+
+.btn-previous,
+.btn-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
 }
 
 .btn-previous {
-  position: absolute;
-  top: 50%;
-  left: 70px;
-  transform: translateY(-50%);
-  background: none;
-  border: none;
-  padding: 10px;
+  left: 10px;
 }
 
 .btn-next {
-  background: none;
-  border: none;
-  position: absolute;
-  top: 50%;
-  right: 70px;
-  transform: translateY(-50%);
-  padding: 10px;
-}
-
-.btn-bot {
-  background-color: white;
-  border: none;
-  margin: 0 5px;
-  width: 30px;
-  height: 5px;
+  right: 10px;
 }
 
 .btn-bot-ppp {
+  display: flex;
+  justify-content: center;
   position: absolute;
-  bottom: 2.5%;
-  left: 50%;
-  transform: translateX(-50%);
+  bottom: 10px;
+  width: 100%;
 }
 
-.btn-previous-icon {
-  height: 25px;
-  width: 25px;
-  color: white;
+.btn-bot {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
-.btn-next-icon {
-  color: white;
-  height: 25px;
-  width: 25px;
+.btn-bot:hover {
+  background-color: white;
+}
+
+.btn-bot.active {
+  border: none;
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: white;
 }

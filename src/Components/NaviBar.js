@@ -7,9 +7,9 @@ const Styles = styled.div`
   a,
   .navbar-brand,
   .navbar-nav .nav-link {
-    color: #adb1b8;
+    color: black;
     &:hover {
-      color: white;
+      text-decoration: underline;
     }
   }
 `;
@@ -18,20 +18,19 @@ const NaviBar = () => {
   return (
     <div>
       <Styles>
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
           <Container>
-            <Navbar.Brand>Web Blog</Navbar.Brand>
+            <Navbar.Brand as={Link} to="/">
+              Grand Master
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mr-auto">
-                <Nav.Link as={Link} to="/">
-                  Home
-                </Nav.Link>
                 <Nav.Link as={Link} to="/order">
-                  Orders
+                  Товары
                 </Nav.Link>
                 <Nav.Link as={Link} to="/about">
-                  About
+                  О нас
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
