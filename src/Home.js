@@ -1,4 +1,5 @@
 import { Col, Container, Row, Card } from "react-bootstrap";
+import { Link} from "react-router-dom"
 import Slider from "./Components/Slider";
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
         <Row>
           <Col style={{ border: "none" }}>
             <Card style={{ width: "18rem", border: "none" }}>
+          <Link to="/order">
               <Card.Img
                 style={{ width: "18rem", height: "18rem" }}
                 variant="top"
@@ -22,11 +24,13 @@ const Home = () => {
               <Card.Body>
                 <Card.Title style={{ textAlign: "center" }}>Стулья</Card.Title>
               </Card.Body>
+            </Link>
             </Card>
           </Col>
 
           <Col style={{ border: "none" }}>
             <Card style={{ width: "18rem", border: "none" }}>
+            <Link to="/order">
               <Card.Img
                 style={{ width: "18rem", height: "18rem" }}
                 variant="top"
@@ -39,11 +43,13 @@ const Home = () => {
                   Мебель для гостиной
                 </Card.Title>
               </Card.Body>
+              </Link>
             </Card>
           </Col>
 
           <Col style={{ border: "none" }}>
             <Card style={{ width: "18rem", border: "none" }}>
+            <Link to="/order">
               <Card.Img
                 style={{ width: "18rem", height: "18rem" }}
                 variant="top"
@@ -56,11 +62,13 @@ const Home = () => {
                   Мебель для спальни
                 </Card.Title>
               </Card.Body>
+              </Link>
             </Card>
           </Col>
 
           <Col style={{ border: "none" }}>
             <Card style={{ width: "18rem", border: "none" }}>
+            <Link to="/order">
               <Card.Img
                 style={{ width: "18rem", height: "18rem" }}
                 variant="top"
@@ -73,6 +81,7 @@ const Home = () => {
                   Мебель для детской
                 </Card.Title>
               </Card.Body>
+              </Link>
             </Card>
           </Col>
         </Row>

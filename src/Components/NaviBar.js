@@ -30,7 +30,7 @@ const NaviBar = () => {
                   Товары
                 </Nav.Link>
                 <Nav.Link as={Link} to="/about">
-                  О нас
+                  Доставка
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
