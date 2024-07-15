@@ -6,7 +6,7 @@ import Home from "./Home";
 import About from "./About";
 import Orders from "./Orders";
 
-function App() {
+const App = () => {
   return (
     <div>
       <Router>
@@ -19,6 +19,6 @@ function App() {
       </Router>
     </div>
   );
-}
+};
 
 export default App;

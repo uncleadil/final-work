@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { data } from "../data";
+import { data } from "../sliderImage";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
