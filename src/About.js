@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap";
 import { MailComponent } from "./Components/MailComponent";
-import video from "./video.mp4";
+import video from "./kazakhstan.mp4";
 
 const About = () => {
   return (
