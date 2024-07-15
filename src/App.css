@@ -53,11 +53,43 @@
 }
 
 .btn-bot.active {
-  border: none;
-  width: 10px;
-  height: 10px;
-  margin: 5px;
-  border-radius: 50%;
-  cursor: pointer;
   background-color: white;
+}
+
+.mail-component-wrapper {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+}
+
+.mail-input {
+  padding: 10px;
+  width: 50vh;
+}
+
+@media (max-width: 768px) {
+  .mail-input {
+    padding: 7px;
+    width: 25vh;
+  }
+  .mail-component-wrapper {
+    padding: 10px;
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .mail-input {
+    padding: 4px;
+    width: 20vh;
+  }
+  .mail-component-wrapper {
+    padding: 5px;
+    max-width: 100%;
+  }
 }

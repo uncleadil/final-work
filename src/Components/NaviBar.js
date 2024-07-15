@@ -12,6 +12,16 @@ const Styles = styled.div`
       text-decoration: underline;
     }
   }
+  .ml-auto {
+    margin-left: auto;
+  }
+
+  .phone-number {
+    color: black;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+  }
 `;
 
 const NaviBar = () => {
@@ -32,6 +42,11 @@ const NaviBar = () => {
                 <Nav.Link as={Link} to="/about">
                   Доставка
                 </Nav.Link>
+              </Nav>
+              <Nav className="ml-auto">
+                <div className="phone-number">
+                  <span>+77713720288</span>
+                </div>
               </Nav>
             </Navbar.Collapse>
           </Container>
