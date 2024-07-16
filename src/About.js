@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap";
 import { MailComponent } from "./Components/MailComponent";
-// import video from "./kazakhstan.mp4";
+import video from "./kazakhstan.mp4";
 
 const About = () => {
   return (
@@ -14,7 +14,7 @@ const About = () => {
         </h3>
       </div>
       <Container style={{ height: "100vh" }}>
-        {/* <video
+        <video
           style={{
             objectFit: "cover",
             position: "fixed",
@@ -29,7 +29,7 @@ const About = () => {
           loop
         >
           <source src={video} type="video/mp4"></source>
-        </video> */}
+        </video>
         <div className="mail-component-wrapper">
           <MailComponent />
         </div>
